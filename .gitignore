@@ -16,6 +16,14 @@
 .DS_Store
 .latexmkrc
 
+# Local Python environments and execution cache
+.venv/
+.lab-venv/
+.uv-cache/
+.python/
+.jupyter/
+__pycache__/
+
 # Instructor-only. Keep locally; do not ship to students.
 Lab/kalman_fusion_lab_SOLUTIONS.ipynb
 Lab/instructor_answer_key.py
